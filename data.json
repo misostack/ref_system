@@ -1,0 +1,549 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "TCL Google TV 55P635",
+            "price": 8490000,
+            "in_stock": true,
+            "date_created": "2024-06-10T10:00:00",
+            "date_updated": "2024-06-10T10:00:00",
+            "tags": ["smart", "tv", "tcl", "google tv"],
+            "meta_data": {
+                "warranty": 24,
+                "rating": 4.5,
+                "comments": 100
+            },
+            "attributes": [
+                {"size": "55", "unit": "inch", "resolution": "4k"},
+                {"size": "65", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Samsung Smart TV Crystal UHD UA55BU8000",
+            "price": 9990000,
+            "in_stock": true,
+            "date_created": "2025-10-15T08:30:00",
+            "date_updated": "2025-10-15T08:30:00",
+            "tags": ["smart", "tv", "samsung", "crystal uhd", "4k"],
+            "meta_data": {
+                "warranty": 36,
+                "rating": 4.3,
+                "comments": 85
+            },
+            "attributes": [
+                {"size": "55", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Samsung Smart TV QLED QA65Q65D",
+            "price": 15440000,
+            "in_stock": true,
+            "date_created": "2025-10-20T14:15:00",
+            "date_updated": "2025-10-20T14:15:00",
+            "tags": ["smart", "tv", "samsung", "qled", "4k", "65inch"],
+            "meta_data": {
+                "warranty": 36,
+                "rating": 4.6,
+                "comments": 142
+            },
+            "attributes": [
+                {"size": "65", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Samsung Smart TV QLED QA75Q65D",
+            "price": 20990000,
+            "in_stock": true,
+            "date_created": "2025-10-25T11:45:00",
+            "date_updated": "2025-10-25T11:45:00",
+            "tags": ["smart", "tv", "samsung", "qled", "4k", "75inch"],
+            "meta_data": {
+                "warranty": 36,
+                "rating": 4.7,
+                "comments": 167
+            },
+            "attributes": [
+                {"size": "75", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 5,
+            "name": "LG Smart TV 55UA8450PSA",
+            "price": 14890000,
+            "in_stock": true,
+            "date_created": "2025-11-01T09:20:00",
+            "date_updated": "2025-11-01T09:20:00",
+            "tags": ["smart", "tv", "lg", "4k", "55inch"],
+            "meta_data": {
+                "warranty": 24,
+                "rating": 4.2,
+                "comments": 73
+            },
+            "attributes": [
+                {"size": "55", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 6,
+            "name": "TCL Google TV QLED 43P7K",
+            "price": 8490000,
+            "in_stock": true,
+            "date_created": "2025-11-05T16:00:00",
+            "date_updated": "2025-11-05T16:00:00",
+            "tags": ["smart", "tv", "tcl", "google tv", "qled", "43inch"],
+            "meta_data": {
+                "warranty": 24,
+                "rating": 4.4,
+                "comments": 95
+            },
+            "attributes": [
+                {"size": "43", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 7,
+            "name": "LG Smart TV 65QNED81ASA",
+            "price": 22590000,
+            "in_stock": true,
+            "date_created": "2025-11-10T13:30:00",
+            "date_updated": "2025-11-10T13:30:00",
+            "tags": ["smart", "tv", "lg", "qned", "4k", "65inch"],
+            "meta_data": {
+                "warranty": 24,
+                "rating": 4.8,
+                "comments": 203
+            },
+            "attributes": [
+                {"size": "65", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Samsung Smart TV Crystal UHD UA65DU8000",
+            "price": 13490000,
+            "in_stock": true,
+            "date_created": "2025-11-15T10:45:00",
+            "date_updated": "2025-11-15T10:45:00",
+            "tags": ["smart", "tv", "samsung", "crystal uhd", "4k", "65inch"],
+            "meta_data": {
+                "warranty": 36,
+                "rating": 4.1,
+                "comments": 67
+            },
+            "attributes": [
+                {"size": "65", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Samsung Smart TV QLED QA55Q65D",
+            "price": 13990000,
+            "in_stock": true,
+            "date_created": "2025-11-20T15:15:00",
+            "date_updated": "2025-11-20T15:15:00",
+            "tags": ["smart", "tv", "samsung", "qled", "4k", "55inch"],
+            "meta_data": {
+                "warranty": 36,
+                "rating": 4.5,
+                "comments": 118
+            },
+            "attributes": [
+                {"size": "55", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Samsung Smart TV Crystal UHD UA55DU8000",
+            "price": 10990000,
+            "in_stock": true,
+            "date_created": "2025-11-25T12:00:00",
+            "date_updated": "2025-11-25T12:00:00",
+            "tags": ["smart", "tv", "samsung", "crystal uhd", "4k", "55inch"],
+            "meta_data": {
+                "warranty": 36,
+                "rating": 4.0,
+                "comments": 54
+            },
+            "attributes": [
+                {"size": "55", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Hisense Smart TV QLED 32Q5S",
+            "price": 4490000,
+            "in_stock": true,
+            "date_created": "2025-12-01T08:30:00",
+            "date_updated": "2025-12-01T08:30:00",
+            "tags": ["smart", "tv", "hisense", "qled", "32inch"],
+            "meta_data": {
+                "warranty": 18,
+                "rating": 3.9,
+                "comments": 42
+            },
+            "attributes": [
+                {"size": "32", "unit": "inch", "resolution": "hd"}
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Samsung Smart TV Crystal UHD UA43DU7000",
+            "price": 7190000,
+            "in_stock": true,
+            "date_created": "2025-12-05T14:20:00",
+            "date_updated": "2025-12-05T14:20:00",
+            "tags": ["smart", "tv", "samsung", "crystal uhd", "4k", "43inch"],
+            "meta_data": {
+                "warranty": 36,
+                "rating": 4.2,
+                "comments": 78
+            },
+            "attributes": [
+                {"size": "43", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Xiaomi Google TV A L43MA-AFSEA",
+            "price": 5890000,
+            "in_stock": true,
+            "date_created": "2025-12-10T11:10:00",
+            "date_updated": "2025-12-10T11:10:00",
+            "tags": ["smart", "tv", "xiaomi", "google tv", "43inch"],
+            "meta_data": {
+                "warranty": 12,
+                "rating": 4.1,
+                "comments": 63
+            },
+            "attributes": [
+                {"size": "43", "unit": "inch", "resolution": "fhd"}
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Toshiba Smart TV 43V31MP",
+            "price": 5990000,
+            "in_stock": true,
+            "date_created": "2025-12-15T16:45:00",
+            "date_updated": "2025-12-15T16:45:00",
+            "tags": ["smart", "tv", "toshiba", "43inch"],
+            "meta_data": {
+                "warranty": 24,
+                "rating": 3.8,
+                "comments": 35
+            },
+            "attributes": [
+                {"size": "43", "unit": "inch", "resolution": "fhd"}
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Sony Google TV BRAVIA 2 II K-55S25VM2",
+            "price": 16190000,
+            "in_stock": true,
+            "date_created": "2025-12-20T09:30:00",
+            "date_updated": "2025-12-20T09:30:00",
+            "tags": ["smart", "tv", "sony", "google tv", "bravia", "55inch"],
+            "meta_data": {
+                "warranty": 36,
+                "rating": 4.6,
+                "comments": 154
+            },
+            "attributes": [
+                {"size": "55", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 16,
+            "name": "LG Smart TV 65UA8450PSA",
+            "price": 18690000,
+            "in_stock": true,
+            "date_created": "2025-12-25T13:15:00",
+            "date_updated": "2025-12-25T13:15:00",
+            "tags": ["smart", "tv", "lg", "4k", "65inch"],
+            "meta_data": {
+                "warranty": 24,
+                "rating": 4.3,
+                "comments": 91
+            },
+            "attributes": [
+                {"size": "65", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 17,
+            "name": "LG Smart TV NanoCell 55NANO76SQA",
+            "price": 21190000,
+            "in_stock": true,
+            "date_created": "2026-01-01T10:00:00",
+            "date_updated": "2026-01-01T10:00:00",
+            "tags": ["smart", "tv", "lg", "nanocell", "4k", "55inch"],
+            "meta_data": {
+                "warranty": 24,
+                "rating": 4.7,
+                "comments": 189
+            },
+            "attributes": [
+                {"size": "55", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 18,
+            "name": "TCL Google TV 65P69K",
+            "price": 12990000,
+            "in_stock": true,
+            "date_created": "2026-01-05T14:30:00",
+            "date_updated": "2026-01-05T14:30:00",
+            "tags": ["smart", "tv", "tcl", "google tv", "65inch"],
+            "meta_data": {
+                "warranty": 24,
+                "rating": 4.2,
+                "comments": 76
+            },
+            "attributes": [
+                {"size": "65", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Sony Google TV BRAVIA 2 II K-43S25VM2",
+            "price": 12070000,
+            "in_stock": true,
+            "date_created": "2026-01-10T11:20:00",
+            "date_updated": "2026-01-10T11:20:00",
+            "tags": ["smart", "tv", "sony", "google tv", "bravia", "43inch"],
+            "meta_data": {
+                "warranty": 36,
+                "rating": 4.4,
+                "comments": 105
+            },
+            "attributes": [
+                {"size": "43", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Toshiba Smart TV 65C350RP",
+            "price": 12990000,
+            "in_stock": true,
+            "date_created": "2026-01-15T15:45:00",
+            "date_updated": "2026-01-15T15:45:00",
+            "tags": ["smart", "tv", "toshiba", "65inch"],
+            "meta_data": {
+                "warranty": 24,
+                "rating": 3.9,
+                "comments": 48
+            },
+            "attributes": [
+                {"size": "65", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Samsung Smart TV Crystal UHD UA75CU8000",
+            "price": 16990000,
+            "in_stock": true,
+            "date_created": "2026-01-20T08:30:00",
+            "date_updated": "2026-01-20T08:30:00",
+            "tags": ["smart", "tv", "samsung", "crystal uhd", "4k", "75inch"],
+            "meta_data": {
+                "warranty": 36,
+                "rating": 4.4,
+                "comments": 127
+            },
+            "attributes": [
+                {"size": "75", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 22,
+            "name": "AQUA Google TV AQT50K800UG",
+            "price": 7690000,
+            "in_stock": true,
+            "date_created": "2026-01-25T12:10:00",
+            "date_updated": "2026-01-25T12:10:00",
+            "tags": ["smart", "tv", "aqua", "google tv", "50inch"],
+            "meta_data": {
+                "warranty": 18,
+                "rating": 3.7,
+                "comments": 29
+            },
+            "attributes": [
+                {"size": "50", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Toshiba Smart TV 55C350RP",
+            "price": 9990000,
+            "in_stock": true,
+            "date_created": "2026-02-01T16:00:00",
+            "date_updated": "2026-02-01T16:00:00",
+            "tags": ["smart", "tv", "toshiba", "55inch"],
+            "meta_data": {
+                "warranty": 24,
+                "rating": 4.0,
+                "comments": 58
+            },
+            "attributes": [
+                {"size": "55", "unit": "inch", "resolution": "fhd"}
+            ]
+        },
+        {
+            "id": 24,
+            "name": "TCL Google TV QLED 43S5K",
+            "price": 6390000,
+            "in_stock": true,
+            "date_created": "2026-02-05T09:15:00",
+            "date_updated": "2026-02-05T09:15:00",
+            "tags": ["smart", "tv", "tcl", "google tv", "qled", "43inch"],
+            "meta_data": {
+                "warranty": 24,
+                "rating": 4.3,
+                "comments": 87
+            },
+            "attributes": [
+                {"size": "43", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 25,
+            "name": "AQUA Google TV QLED AQT65S80EUX",
+            "price": 11990000,
+            "in_stock": true,
+            "date_created": "2026-02-10T13:45:00",
+            "date_updated": "2026-02-10T13:45:00",
+            "tags": ["smart", "tv", "aqua", "google tv", "qled", "65inch"],
+            "meta_data": {
+                "warranty": 18,
+                "rating": 4.1,
+                "comments": 69
+            },
+            "attributes": [
+                {"size": "65", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 26,
+            "name": "TCL Google TV QLED 50P7K",
+            "price": 9590000,
+            "in_stock": true,
+            "date_created": "2026-02-15T10:30:00",
+            "date_updated": "2026-02-15T10:30:00",
+            "tags": ["smart", "tv", "tcl", "google tv", "qled", "50inch"],
+            "meta_data": {
+                "warranty": 24,
+                "rating": 4.2,
+                "comments": 82
+            },
+            "attributes": [
+                {"size": "50", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 27,
+            "name": "TCL Google TV QLED 32S5K",
+            "price": 4490000,
+            "in_stock": true,
+            "date_created": "2026-02-20T14:20:00",
+            "date_updated": "2026-02-20T14:20:00",
+            "tags": ["smart", "tv", "tcl", "google tv", "qled", "32inch"],
+            "meta_data": {
+                "warranty": 24,
+                "rating": 4.1,
+                "comments": 65
+            },
+            "attributes": [
+                {"size": "32", "unit": "inch", "resolution": "hd"}
+            ]
+        },
+        {
+            "id": 28,
+            "name": "TCL Google TV QLED 40S5K",
+            "price": 5590000,
+            "in_stock": true,
+            "date_created": "2026-02-25T11:50:00",
+            "date_updated": "2026-02-25T11:50:00",
+            "tags": ["smart", "tv", "tcl", "google tv", "qled", "40inch"],
+            "meta_data": {
+                "warranty": 24,
+                "rating": 4.3,
+                "comments": 89
+            },
+            "attributes": [
+                {"size": "40", "unit": "inch", "resolution": "fhd"}
+            ]
+        },
+        {
+            "id": 29,
+            "name": "LG Smart TV 43UA8450PSA",
+            "price": 11990000,
+            "in_stock": true,
+            "date_created": "2026-03-01T08:40:00",
+            "date_updated": "2026-03-01T08:40:00",
+            "tags": ["smart", "tv", "lg", "4k", "43inch"],
+            "meta_data": {
+                "warranty": 24,
+                "rating": 4.2,
+                "comments": 71
+            },
+            "attributes": [
+                {"size": "43", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Samsung Smart TV QLED QA55Q80D",
+            "price": 24990000,
+            "in_stock": true,
+            "date_created": "2026-03-05T15:25:00",
+            "date_updated": "2026-03-05T15:25:00",
+            "tags": ["smart", "tv", "samsung", "qled", "4k", "premium", "55inch"],
+            "meta_data": {
+                "warranty": 36,
+                "rating": 4.8,
+                "comments": 234
+            },
+            "attributes": [
+                {"size": "55", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Samsung Smart TV Crystal UHD UA75DU8000",
+            "price": 26650000,
+            "in_stock": true,
+            "date_created": "2026-03-10T12:15:00",
+            "date_updated": "2026-03-10T12:15:00",
+            "tags": ["smart", "tv", "samsung", "crystal uhd", "4k", "75inch"],
+            "meta_data": {
+                "warranty": 36,
+                "rating": 4.3,
+                "comments": 98
+            },
+            "attributes": [
+                {"size": "75", "unit": "inch", "resolution": "4k"}
+            ]
+        },
+        {
+            "id": 32,
+            "name": "Samsung Smart TV QLED QA50Q60B",
+            "price": 10990000,
+            "in_stock": true,
+            "date_created": "2026-03-15T16:45:00",
+            "date_updated": "2026-03-15T16:45:00",
+            "tags": ["smart", "tv", "samsung", "qled", "4k", "50inch"],
+            "meta_data": {
+                "warranty": 36,
+                "rating": 4.4,
+                "comments": 136
+            },
+            "attributes": [
+                {"size": "50", "unit": "inch", "resolution": "4k"}
+            ]
+        }
+    ]
+}

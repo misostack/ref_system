@@ -64,6 +64,103 @@ response = es.index(index="product_index", document=document)
 pprint(response)
 ```
 
+### 3. Mapping
+
+![alt text](image-5.png)
+
+- [Data types](https://www.elastic.co/docs/reference/elasticsearch/mapping-reference/field-data-types)
+
+### 4. Data Types
+
+#### 4.1. Object vs Nested Object vs Flattened Object
+
+```json
+{
+  "name": "T-Shirt",
+  "attributes": [
+    { "color": "red", "size": "M" },
+    { "color": "blue", "size": "L" }
+  ]
+}
+```
+
+> object mapping
+
+```json
+GET products/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        { "term": { "attributes.color": "red" } },
+        { "term": { "attributes.size": "L" } }
+      ]
+    }
+  }
+}
+
+// Returns the product, but it’s wrong.
+Because Elasticsearch sees:
+"attributes.color": ["red", "blue"],
+"attributes.size": ["M", "L"]
+So it thinks red exists and L exists → match, even though they are not in the same object.
+```
+
+> nested
+
+```json
+"attributes": {
+  "type": "nested",
+  "properties": {
+    "color": { "type": "keyword" },
+    "size": { "type": "keyword" }
+  }
+}
+GET products/_search
+{
+  "query": {
+    "nested": {
+      "path": "attributes",
+      "query": {
+        "bool": {
+          "must": [
+            { "term": { "attributes.color": "red" } },
+            { "term": { "attributes.size": "L" } }
+          ]
+        }
+      }
+    }
+  }
+}
+❌ Returns no product.
+Because there’s no object { "color": "red", "size": "L" }.
+👉 This is the correct behavior if you need to preserve relationships.
+```
+
+> flatten
+
+```json
+GET products/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        { "term": { "attributes.color": "red" } },
+        { "term": { "attributes.size": "L" } }
+      ]
+    }
+  }
+}
+✅ Returns the product (like object).
+But again, it does not respect object boundaries.
+Flattened is best when you don’t know all possible keys (dynamic metadata), but you can’t do strict per-object matching.
+```
+
+👉 So:
+
+- Use nested when you need precise array-of-object matching.
+- Use object/flattened when precision is not required, or when you want speed / schema flexibility.
+
 ## References
 
 - [Elasticsearch Course for Beginners](https://www.youtube.com/watch?v=a4HBKEda_F8)
